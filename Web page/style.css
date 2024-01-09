@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.4%;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 2rem 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    box-shadow: .1rem .1rem .5rem #ccc;
+    z-index: 99;
+}
+
+.Logo {
+    font-size: 3rem;
+    font-weight: 700;
+    color: purple;
+}
+
+header #bars {
+    font-size: 2.5rem;
+    color: black;
+    cursor: pointer;
+    display: none;
+}
+
+header .navbar a {
+    font-size: 2rem;
+    margin: 0 1rem;
+    color: purple;
+    font-weight: 300;
+}
+
+header .navbar .btn {
+    padding: 1rem 2rem;
+    background-color: blueviolet;
+    color: #fff;
+    border-radius: 5rem;
+}
+
+section {
+    padding: 0 10rem;
+}
+
+.Middle-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.Middle-section .content {
+    flex: 1 1 50rem;
+    padding-top: 6.5rem;
+}
+
+.Middle-section .content h1 {
+    font-size: 4.5rem;
+}
+
+.Middle-section .content p {
+    font-size: 1.7rem;
+    line-height: 1.7;
+}
+
+.Middle-section .btn {
+    display: inline-block;
+    margin-top: 1rem;
+    font-size: 1.8rem;
+    padding: 1rem 2rem;
+    background-color: purple;
+    color: white;
+    border-radius: 5rem;
+}
+
+.Middle-section .image {
+    margin-top: 5rem;
+    flex: 1 1 50rem;
+}
+
+.Middle-section .image img {
+    width: 100%;
+    margin-top: 1rem;
+    padding: 1rem;
+}
